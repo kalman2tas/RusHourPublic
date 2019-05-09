@@ -1,23 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>*</members>
+        <members>ByPassConfig</members>
+        <members>PeopleManagement</members>
+        <members>PetAllowance</members>
+        <members>TH_PeTriggerHandler</members>
+        <members>TH_PersonTriggerHandler</members>
+        <members>TH_ToyTrigger</members>
+        <members>ToyPurchase</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>*</members>
+        <members>PeTrigger</members>
+        <members>PersonTrigger</members>
+        <members>ToyTrigger</members>
         <name>ApexTrigger</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Marriage__c</members>
+        <members>Person__c</members>
+        <members>Pet__c</members>
+        <members>Toy__c</members>
         <name>CustomObject</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Marriage__c</members>
+        <members>Person__c</members>
+        <members>Pet__c</members>
+        <members>Toy__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Marriage__c-Marriage Layout</members>
+        <members>Person__c-Person Layout</members>
+        <members>Pet__c-Pet Layout</members>
+        <members>Toy__c-Toy Layout</members>
         <name>Layout</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Person__c.Gimme_Toy</members>
+        <members>Person__c.I_wanna_Pet</members>
         <name>QuickAction</name>
     </types>
     <version>45.0</version>
