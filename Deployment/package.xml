@@ -38,6 +38,10 @@
         <name>Layout</name>
     </types>
     <types>
+        <members>Admin</members>
+        <name>Profile</name>
+    </types>
+    <types>
         <members>Person__c.Gimme_Toy</members>
         <members>Person__c.I_wanna_Pet</members>
         <name>QuickAction</name>
