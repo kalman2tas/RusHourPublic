@@ -17,6 +17,10 @@
         <name>ApexTrigger</name>
     </types>
     <types>
+        <members>RusHour</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
         <members>Marriage__c</members>
         <members>Person__c</members>
         <members>Pet__c</members>
