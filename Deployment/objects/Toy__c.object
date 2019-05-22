@@ -65,6 +65,14 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>SecondHand__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>SecondHand</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Type__c</fullName>
         <externalId>false</externalId>
         <label>Type</label>

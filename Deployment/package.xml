@@ -35,6 +35,10 @@
         <name>CustomTab</name>
     </types>
     <types>
+        <members>RushHour_UtilityBar</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
         <members>Marriage__c-Marriage Layout</members>
         <members>Person__c-Person Layout</members>
         <members>Pet__c-Pet Layout</members>
