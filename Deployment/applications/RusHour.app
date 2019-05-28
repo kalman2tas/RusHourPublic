@@ -9,8 +9,6 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>RusHour</label>
     <navType>Standard</navType>
-    <tabs>Associate__c</tabs>
-    <tabs>Payroll_Profile__c</tabs>
     <tabs>Pet__c</tabs>
     <tabs>Marriage__c</tabs>
     <tabs>Person__c</tabs>
