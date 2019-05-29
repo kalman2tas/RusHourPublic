@@ -92,7 +92,7 @@
                 <value>
                     <fullName>Dotty</fullName>
                     <default>false</default>
-                    <label>Dotty</label>
+                    <label>Spotted</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
