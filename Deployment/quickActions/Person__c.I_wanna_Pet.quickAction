@@ -17,6 +17,11 @@
                 <field>Type__c</field>
                 <uiBehavior>Edit</uiBehavior>
             </quickActionLayoutItems>
+			<quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Birthdate__c</field>
+                <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
         </quickActionLayoutColumns>
     </quickActionLayout>
     <successMessage>Parent allowed the Pet</successMessage>
