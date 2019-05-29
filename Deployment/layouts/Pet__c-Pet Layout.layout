@@ -10,6 +10,10 @@
                 <behavior>Required</behavior>
                 <field>Name</field>
             </layoutItems>
+			<layoutItems>
+                <behavior>Required</behavior>
+                <field>Birthdate__c</field>
+            </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Type__c</field>
