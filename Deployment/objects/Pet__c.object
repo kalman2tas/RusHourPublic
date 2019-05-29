@@ -52,7 +52,7 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-	<fields>
+    <fields>
         <fullName>Age__c</fullName>
         <externalId>false</externalId>
         <label>Age</label>
@@ -62,6 +62,15 @@
         <trackTrending>false</trackTrending>
         <type>Number</type>
         <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Birthdate__c</fullName>
+        <description>This field is to store the date of birth of the pet</description>
+        <externalId>false</externalId>
+        <label>Birthdate</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
     </fields>
     <fields>
         <fullName>Color__c</fullName>
@@ -98,6 +107,16 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Its_Today__c</fullName>
+        <externalId>false</externalId>
+        <formula>TODAY()</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Day when you have to play with Pet</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>Owner__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
@@ -109,7 +128,7 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
-	<fields>
+    <fields>
         <fullName>Sex__c</fullName>
         <externalId>false</externalId>
         <label>Sex</label>
@@ -165,15 +184,6 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
-    </fields>
-	<fields>
-        <fullName>Birthdate__c</fullName>
-		<description>This field is to store the date of birth of the pet</description>
-        <externalId>false</externalId>
-        <label>Birthdate</label>
-        <required>true</required>
-        <trackTrending>false</trackTrending>
-        <type>Date</type>
     </fields>
     <label>Pet</label>
     <listViews>
