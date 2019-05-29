@@ -65,6 +65,14 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>SecondHand__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>SecondHand</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Type__c</fullName>
         <externalId>false</externalId>
         <label>Type</label>
@@ -88,41 +96,6 @@
                     <fullName>LEGO</fullName>
                     <default>false</default>
                     <label>LEGO</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>What_Type_of_Game__c</fullName>
-        <externalId>false</externalId>
-        <inlineHelpText>Chose the type of your game please for example: I dont know</inlineHelpText>
-        <label>What Type of Game</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Pc</fullName>
-                    <default>false</default>
-                    <label>Pc</label>
-                </value>
-                <value>
-                    <fullName>Ps4</fullName>
-                    <default>false</default>
-                    <label>Ps4</label>
-                </value>
-                <value>
-                    <fullName>Ps5</fullName>
-                    <default>false</default>
-                    <label>Ps5</label>
-                </value>
-                <value>
-                    <fullName>I dont know</fullName>
-                    <default>false</default>
-                    <label>I dont know</label>
                 </value>
             </valueSetDefinition>
         </valueSet>

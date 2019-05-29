@@ -20,7 +20,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>What_Type_of_Game__c</field>
+                <field>SecondHand__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
