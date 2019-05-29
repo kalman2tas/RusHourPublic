@@ -53,6 +53,45 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
+        <fullName>Brand__c</fullName>
+        <externalId>false</externalId>
+        <label>Brand</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Hasbro</fullName>
+                    <default>false</default>
+                    <label>Hasbro</label>
+                </value>
+                <value>
+                    <fullName>Playmobil</fullName>
+                    <default>false</default>
+                    <label>Playmobil</label>
+                </value>
+                <value>
+                    <fullName>Lego</fullName>
+                    <default>false</default>
+                    <label>Lego</label>
+                </value>
+                <value>
+                    <fullName>Mattel</fullName>
+                    <default>false</default>
+                    <label>Mattel</label>
+                </value>
+                <value>
+                    <fullName>Nintendo</fullName>
+                    <default>false</default>
+                    <label>Nintendo</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Owner__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
