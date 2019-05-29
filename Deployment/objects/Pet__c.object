@@ -166,6 +166,15 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+	<fields>
+        <fullName>Birthdate__c</fullName>
+		<description>This field is to store the date of birth of the pet</description>
+        <externalId>false</externalId>
+        <label>Birthdate</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
     <label>Pet</label>
     <listViews>
         <fullName>All</fullName>
