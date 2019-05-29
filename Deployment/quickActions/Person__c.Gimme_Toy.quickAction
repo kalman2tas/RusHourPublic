@@ -7,8 +7,12 @@
         <quickActionLayoutColumns>
             <quickActionLayoutItems>
                 <emptySpace>false</emptySpace>
-                <field>Birthdate__c</field>
 				<field>Type__c</field>
+                <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
+			<quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Birthdate__c</field>
                 <uiBehavior>Required</uiBehavior>
             </quickActionLayoutItems>
         </quickActionLayoutColumns>
