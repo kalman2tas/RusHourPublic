@@ -49,6 +49,11 @@
         <field>Person__c.Sex__c</field>
         <readable>true</readable>
     </fieldPermissions>
+	<fieldPermissions>
+        <editable>true</editable>
+        <field>Pet__c.Age__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Pet__c.Color__c</field>
@@ -57,6 +62,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Pet__c.Owner__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+	<fieldPermissions>
+        <editable>true</editable>
+        <field>Pet__c.Sex__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -536,15 +546,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ManagePropositions</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ManagePvtRptsAndDashbds</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageRecommendationStrategies</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -614,7 +616,6 @@
         <enabled>true</enabled>
         <name>Packaging2</name>
     </userPermissions>
-  
     <userPermissions>
         <enabled>true</enabled>
         <name>PrivacyDataAccess</name>
