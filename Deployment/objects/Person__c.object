@@ -140,8 +140,8 @@
         <fullName>Check_the_olderage</fullName>
         <active>true</active>
         <description>The people who older than 200 year does not exits.</description>
-        <errorConditionFormula>Age__c  &gt; 200</errorConditionFormula>
-        <errorMessage>The person is too old.</errorMessage>
+        <errorConditionFormula>Age__c  &gt; 200 &amp;&amp; Age__c &lt; 0</errorConditionFormula>
+        <errorMessage>Incorrect age!</errorMessage>
     </validationRules>
     <visibility>Public</visibility>
 </CustomObject>
