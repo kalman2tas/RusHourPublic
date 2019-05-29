@@ -52,6 +52,7 @@
     <types>
         <members>Person__c.Gimme_Toy</members>
         <members>Person__c.I_wanna_Pet</members>
+        <members>Pet__c.Play_with_me</members>
         <name>QuickAction</name>
     </types>
     <version>45.0</version>
