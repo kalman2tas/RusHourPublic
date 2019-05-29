@@ -120,6 +120,21 @@
                     <default>false</default>
                     <label>Male</label>
                 </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Prefer not to tell</fullName>
+                    <default>false</default>
+                    <label>Prefer not to tell</label>
+                </value>
+                <value>
+                    <fullName>Helicopter</fullName>
+                    <default>false</default>
+                    <label>Helicopter</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
