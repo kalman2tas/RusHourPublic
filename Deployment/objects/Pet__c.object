@@ -93,9 +93,20 @@
                     <fullName>Dotty</fullName>
                     <default>false</default>
                     <label>Spotted</label>
+                    <label>Dotty</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>Its_Today__c</fullName>
+        <externalId>false</externalId>
+        <formula>TODAY()</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Day when you have to play with Pet</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
     </fields>
     <fields>
         <fullName>Owner__c</fullName>
