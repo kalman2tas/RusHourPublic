@@ -1,3 +1,4 @@
+/*CI test*/
 public class ByPassConfig {
 
 	public static final String AssocInsert = 'AssocInsert';
