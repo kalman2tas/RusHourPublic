@@ -8,6 +8,7 @@ public with sharing class ToyPurchase {
         }
         List<Person__c> owners = [SELECT Id, Name, (SELECT Id, Type__c FROM Toys__r) FROM Person__c WHERE Id IN: ownerIds];
         for(Toy__c toy : toys){
+			toy.Invalid_Field__c = 'Non existing';
             for(Person__c owner : owners){
                 if(owner.Id.equals(toy.Owner__c)){
                     toy.Name = owner.Name+'_'+toy.Type__c;
